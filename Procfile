@@ -1,1 +1,1 @@
-web: cd sandbox && python manage.py migrate && python manage.py collectstatic --no-input && python manage.py runserver && gunicorn sandbox.wsgi
+web: cd sandbox && python manage.py migrate && python manage.py collectstatic --no-input && gunicorn sandbox.wsgi
